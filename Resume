@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: Arial,Helvetica,sans-serif;
+    }
+    header{
+        border:1px solid black;
+    }
+    h3{
+        font-family:"Times New Roman",Times,serif;
+    }
+    .about p{
+        text-indent:50px;
+    }
+    .obj p{
+        text-indent:50px;
+    }
+    table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+    .declare p{
+        text-indent:50px;
+    }
+    td{
+        padding:10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div align="center">
+      <h2>SINGARAJU TEJA SATYA SREE</h2>
+      <p>Job Role: Web Developer</p>
+      <p><a href="teja64062@gmail.com">teja64062@gmail.com</a> | <a href="+91 8978864062">+91 8978864062</a></p>
+    </div>
+  </header>
+  
+  <div class="about">
+    <h3>About Yourself:</h3>
+    <p>I'm Teja, a III year B.Tech student at SVIET, Nandamuru, Pedana Mandal, AP.</p>
+  </div>
+  
+  <hr>
+  <div class="obj">
+      <h3>Career Objective:</h3>
+      <p>To attain a challenging position in an organization and use my skills for the mutual development of oraganization and me.</p>
+  </div>
+  
+  <hr>
+  
+  <div>
+  <h3>Academic Qualifications:</h3>
+  <table border=1px>
+      <tr>
+          <th>S.No</th>
+          <th>Course</th>
+          <th>Name of Institute</th>
+          <th>Year of passout</th>
+          <th>Percentage</th>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>B.Tech(CSE)</td>
+          <td>SVIET(JNTUK)</td>
+          <td>2026</td>
+          <td>81.5%</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Inter (MPC)</td>
+          <td>LAGJC College</td>
+          <td>2022</td>
+          <td>95.2%</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>SSC(10th)</td>
+          <td>Z.P.H.S Tapasipudi </td>
+          <td>2020</td>
+          <td>100%</td>
+      </tr>
+  </table>
+  <hr>
+  
+  <div class="Courses">
+  <h3>Courses:</h3>
+      <dl>
+          <dt><b><u>Course - 1:</u></b></dt>
+          <dd><b>• Title:</b> Java Programming Fundamentals</dd>
+          <dd><b>• Duration:</b> 16-04-2024 to 16-05-2024</dd>
+          <dd><b>• Description:</b> This is a course of study offered by GalileoX, an online learning initiative of Universidad Galileo. The course covered the basics of Java programming.These fundamentals will help in building applications, developing software, solving problems.</dd>
+      </dl>
+      <dl>
+          <dt><b><u>Course - 2:</u></b></dt>
+          <dd><b>• Title: </b>Python Programming</dd>
+          <dd><b>• Duration: </b>01-02-2025 to 30-03-2025</dd>
+          <dd><b>• Description: </b> This a course offered by BIST Technologies Pvt. Ltd. company. The course covered all concepts in Python. These concepts are applied in various domains like web development, data science, automation.</dd>
+      </dl>
+  </div>
+  <hr>
+  
+  <div>
+      <h3>Internships:</h3>
+      <ul>
+          <li>Internship on "<b>AWS Cloud Computing</b> " organized by <b>AICTE - EduSkills</b> under<b> aws-academy</b> from April-June 2024</li>
+          <li>Internship on "<b>AWS Data Engineering</b> " organized by <b>AICTE - EduSkills</b> under<b> aws academy</b> from July-September 2024</li>
+      </ul>
+  </div>
+  
+  <hr>
+  
+  <div>
+      <h3>Strengths:</h3>
+      <ul>
+          <li>Problem Solving</li>
+          <li>Time Management</li>
+          <li>Ability to grasp new things quickly</li>
+      </ul>
+  </div>
+  
+  <hr>
+  
+  <div>
+      <h3>Personal Details:</h3>
+      <ul type="none">
+          <li><b>Father Name: </b>Singaraju Veera Kumar</li>
+          <li><b>Mother Name: </b>Singaraju Prasanthi</li>
+          <li><b>Date of Birth: </b>13-09-2005</li>
+          <li><b>Languages Known: </b>Telugu, Hindi, English</li>
+          <li><b>Hobbies: </b>Drawing,Problem solving games</li>
+          <li><b>GitHub:</b><a href="https://github.com/sowmika03">https://github.com/sowmika03</a></li>
+          <li><b>LinkedIn:</b><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://in.linkedin.com/in/vemula-sai-sowmika-3492b3297&ved=2ahUKEwjPmfmwtuKNAxXkka8BHQ8SHXcQjjh6BAglEAE&sqi=2&usg=AOvVaw3pA4vl9rd1MU8y8A89jcg1">https://in.linkedin.com/in/vemula-sai-sowmika</a></li>
+      </ul>
+  </div>
+  
+  <hr>
+  
+  <div class="declare">
+      <h3>Declaration:</h3>
+      <p>I, Singaraju Teja Satya Sree, hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</p>  
+  </div>
+  
+  <hr>
+  
+  <footer>
+      <p>Date:</p>
+      <p>Place:</p>
+      <p align="right">(Singaraju Teja Satya Sree)</p>
+  </footer>
+</body>
+</html>
