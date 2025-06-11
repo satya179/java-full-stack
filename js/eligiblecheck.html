@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number" id="myage" placeholder="enter your age">
+        <button onclick="getInput()">get age</button>
+        <h1 id="1"></h1>
+   </body>
+   <script>
+    let age,My_age;
+    function getInput()
+    {
+     age=document.getElementById("myage");
+      My_age = age.value;
+    if(My_age>=18)
+   {
+      if(My_age>=21)
+      {
+        document.getElementById(1).innerHTML="the candidate is eligible for both appling driving licence and to get marrage";
+      }
+     else{
+       document.getElementById(1).innerHTML="the candidate is eligible for appling driving licence";
+      }
+  
+   }
+   else
+   {
+    document.getElementById(1).innerHTML="the candidate is  not eligible for appling driving licence and to get marrage";
+   }
+}
+
+   </script>
+</html>
