@@ -560,3 +560,268 @@ enter no of elements
 
 *********   
 */
+/*
+import java.util.Scanner;
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter size:");
+        int n=sc.nextInt();
+     for(int i=1;i<=n;i++)
+     {
+         for(int j=1;j<=n-i;j++)
+         {
+            System.out.print(" "); 
+         }
+         
+         for(int k=1;k<=(2*i-1);k++)
+         {
+            System.out.print("*"); 
+         }
+         System.out.println(" "); 
+         
+     }
+       for(int i=n-1;i>=1;--i)
+     {
+         for(int j=n;j>i;j--)
+         {
+            System.out.print(" "); 
+         }
+         
+         for(int k=1;k<=(2*i-1);k++)
+         {
+            System.out.print("*"); 
+         }
+         System.out.println(" "); 
+         
+     }
+    }
+}
+output:
+enter size:
+7
+      * 
+     *** 
+    ***** 
+   ******* 
+  ********* 
+ *********** 
+************* 
+ *********** 
+  ********* 
+   ******* 
+    ***** 
+     *** 
+      * 
+
+*/
+
+/*
+import java.util.Scanner;
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter size:");
+        int n=sc.nextInt();
+        
+     for(int i=1;i<=n;i++)
+     {
+         for(int j=1;j<=n;j++)
+         {
+            if(i==1 || i==n||j==1||j==n)
+            {
+            System.out.print("*"); 
+             }
+             else{
+               System.out.print("  "); 
+             }
+         }
+         System.out.println(" "); 
+         
+     }
+       
+    }
+}
+output:
+enter size:
+5
+* * * * * 
+*       * 
+*       * 
+*       * 
+* * * * *  
+
+*/
+
+/*
+import java.util.Scanner;
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter size:");
+        int n=sc.nextInt();
+        
+     for(int i=1;i<=n;i++)
+     {
+         for(int j=1;j<=n;j++)
+         {
+            if(i==1 || i==n||j==1||j==n||j==(n+1)/2||i==(n+1)/2)
+            {
+            System.out.print("* "); 
+             }
+             else{
+               System.out.print("  "); 
+             }
+         }
+         System.out.println(" "); 
+         
+     }
+       
+    }
+}
+
+output:
+enter size:
+7
+* * * * * * * 
+*     *     * 
+*     *     * 
+* * * * * * * 
+*     *     * 
+*     *     * 
+* * * * * * * 
+*/
+/*import java.util.Scanner;
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter size:");
+        int n=sc.nextInt();
+        
+     for(int i=1;i<=n;i++)
+     {
+         for(int j=1;j<=n;j++)
+         {
+            if(j==(n+1)/2||i==(n+1)/2)
+            {
+            System.out.print("* "); 
+             }
+             else{
+               System.out.print("  "); 
+             }
+         }
+         System.out.println(" "); 
+         
+     }
+       
+    }
+}
+output:
+enter size:
+7
+      *        
+      *        
+      *        
+* * * * * * *  
+      *        
+      *        
+      *   
+*/
+/*import java.util.Scanner;
+
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size: ");
+        int n = sc.nextInt();
+
+        // Upper part of the diamond
+        for (int i = 1; i <= n; i++) {
+            // Print leading spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // Print stars and inner spaces
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                if (k == 1 || k == (2 * i - 1)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+        // Lower part of the diamond
+        for (int i = n - 1; i >= 1; i--) {
+            // Print leading spaces
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // Print stars and inner spaces
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                if (k == 1 || k == (2 * i - 1)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+output:
+Enter size: 
+7
+      *
+     * *
+    *   *
+   *     *
+  *       *
+ *         *
+*           *
+ *         *
+  *       *
+   *     *
+    *   *
+     * *
+      *
+*/
+
+/*import java.util.Scanner;
+
+class Patterns {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size: ");
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            // Print leading spaces
+            for (int j = 0; j < n; j++)
+            {
+                if (i==j|| i+j == (n-1)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+        
+    }
+}
+
+output:
+Enter size: 
+7
+*     *
+ *   * 
+  * *  
+   *   
+  * *  
+ *   * 
+*     *
+*/
