@@ -825,3 +825,133 @@ Enter size:
  *   * 
 *     *
 */
+
+/*import java.util.Scanner;
+class Main {
+    
+public static void main(String[] args) {
+       
+Scanner sc=new Scanner(System.in);
+       
+System.out.println("enter number of elemnts");
+       
+int n=sc.nextInt();
+       
+       
+for(int i=0;i<=n;i++)
+       
+{
+    for(int k=0;k<i;k++)
+           {
+             
+          System.out.print("*");
+           
+}
+           
+System.out.println(i);
+       
+}
+System.out.println(" ");
+}
+}
+
+output:
+enter number of elemnts
+5
+0
+*1
+**2
+***3
+****4
+*****5
+*/
+/*import java.util.Scanner;
+class Main {
+    
+public static void main(String[] args) {
+       
+Scanner sc=new Scanner(System.in);
+       
+System.out.println("enter number of elemnts");
+       
+int n=sc.nextInt();
+       
+       
+for(int i=1;i<=n;i++)
+       
+{
+    for(int j=1;j<=n;j++)
+           {
+            if(i==1)
+            {
+                System.out.print("* ");
+            }
+            if(j==1||j==i)
+            {
+                System.out.print("* ");
+            }
+            else{
+          System.out.print(" ");
+            }
+}
+ System.out.println();          
+       
+}
+
+}
+}
+output:
+enter number of elemnts
+7
+* * *  *  *  *  *  *  
+* *      
+*  *     
+*   *    
+*    *   
+*     *  
+*      * 
+
+*/
+/*import java.util.Scanner;
+class Main {
+    
+public static void main(String[] args) {
+       
+Scanner sc=new Scanner(System.in);
+       
+System.out.println("enter number of elemnts");
+       
+int n=sc.nextInt();
+       
+       
+for(int i=n;i>=1;i--)
+       
+{
+    for(int j=1;j<=i;j++)
+           {
+            if(j==1||j==i||i==n)
+            {
+                System.out.print("*");
+            }
+            else{
+          System.out.print(" ");
+            }
+}
+ System.out.println();          
+       
+}
+
+}
+}
+output:
+enter number of elemnts
+7
+*******
+*    *
+*   *
+*  *
+* *
+**
+*
+
+*/
